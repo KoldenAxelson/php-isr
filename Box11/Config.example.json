@@ -1,0 +1,27 @@
+{
+  "cache": {
+    "dir": "/var/www/cache/isr",
+    "default_ttl": 3600,
+    "use_sharding": false
+  },
+  "freshness": {
+    "stale_window_seconds": null
+  },
+  "background": {
+    "timeout": 30,
+    "max_retries": 3
+  },
+  "stats": {
+    "enabled": true,
+    "file": null
+  },
+  "compression": {
+    "enabled": false,
+    "level": 6
+  },
+  "app": {
+    "name": "My ISR Application",
+    "environment": "production",
+    "debug": false
+  }
+}
